@@ -18,6 +18,7 @@ print(book2)
 # дочерний класс
 class Manga(Books):
 
+
     prise = 600
     def __init__(self, title, author,image='default.jpg'):
         Books.__init__(self,title,author)
